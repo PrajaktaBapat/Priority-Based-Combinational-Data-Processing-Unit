@@ -1,0 +1,9 @@
+# Force GitHub to treat .v files as Verilog
+*.v linguist-language=Verilog
+*.sv linguist-language=SystemVerilog
+
+# Treat HDL as text
+*.v  text
+*.sv text
+*.vh text
+*.svh text
